@@ -1,0 +1,39 @@
+[
+  {
+  "_comment": "config samples for the configs.json"
+  },
+  {
+    "_comment": "config.json example - Option 1: As regular accessory",
+    "accessories": [
+      {
+        "accessory": "SkyQRemote",
+        "name": "Sky Q Box",
+        "ip": "192.168.1.100",
+        "port": 49160,
+        "maxChannels": 50
+      }
+    ]
+  },
+  {
+    "_comment": "config.json example - Option 2: As child bridge (RECOMMENDED)",
+    "bridge": {
+      "name": "Homebridge",
+      "username": "CC:22:3D:E3:CE:30",
+      "port": 51826,
+      "pin": "031-45-154"
+    },
+    "accessories": [
+      {
+        "accessory": "SkyQRemote",
+        "name": "Sky Q Box",
+        "ip": "192.168.1.100",
+        "port": 49160,
+        "maxChannels": 50,
+        "_bridge": {
+          "username": "0E:54:47:00:00:01",
+          "port": 45678
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "name": "homebridge-skyq-remote-reciever",
+  "version": "0.1.0",
+  "description": "Homebridge plugin for Sky Q reciever",
+  "main": "index.js",
+  "keywords": [
+    "homebridge-plugin",
+    "sky",
+    "sky-q",
+    "remote"
+  ],
+  "engines": {
+    "node": ">=14.0.0",
+    "homebridge": ">=1.3.0"
+  },
+  "dependencies": {
+    "sky-remote": "^1.0.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
