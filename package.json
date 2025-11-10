@@ -1,13 +1,15 @@
 {
-  "name": "homebridge-skyq-remote-reciever",
-  "version": "0.1.0",
-  "description": "Homebridge plugin for Sky Q reciever",
+  "name": "homebridge-skyq-remote",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Sky Q box control",
   "main": "index.js",
   "keywords": [
     "homebridge-plugin",
     "sky",
     "sky-q",
-    "remote"
+    "remote",
+    "austria",
+    "homekit"
   ],
   "engines": {
     "node": ">=14.0.0",
@@ -16,6 +18,14 @@
   "dependencies": {
     "sky-remote": "^1.0.0"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peter0503/homebridge-skyq-remote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peter0503/homebridge-skyq-remote/issues"
+  },
+  "homepage": "https://github.com/peter0503/homebridge-skyq-remote#readme",
+  "author": "GeneralGuggelhupf",
   "license": "MIT"
 }
